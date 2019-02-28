@@ -3,6 +3,8 @@ const Joi = require("joi");
 
 const { ObjectId } = require("mongoose").Types;
 
+//Object °ËÁõ
+
 exports.checkObjectId = (ctx, next) => {
   const { id } = ctx.params;
 

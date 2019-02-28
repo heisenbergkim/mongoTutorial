@@ -12,5 +12,5 @@ const Post = new Schema({
   }
 });
 
-// module.exports = mongoose.model("Post", Post, "custom_book_collection");
-module.exports = mongoose.model("Post", Post);
+module.exports = mongoose.model("Post", Post, "Post");
+// module.exports = mongoose.model("Post", Post);
