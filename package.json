@@ -1,0 +1,23 @@
+{
+  "name": "mongotutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heisenbergkim/mongoTutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heisenbergkim/mongoTutorial/issues"
+  },
+  "homepage": "https://github.com/heisenbergkim/mongoTutorial#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "mongoose": "^5.4.16"
+  }
+}
